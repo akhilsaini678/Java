@@ -1,0 +1,6 @@
+Compile Java Program: javac Program.java
+Compile java program into another directory: javac -d /directory/folder1 Program.java
+Example: javac -d CompiledClasses/ Basics/*.java
+
+Run Java Program: java Program
+Run Java Program from another directory: java -cp /directory/classes Program
