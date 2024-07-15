@@ -17,22 +17,6 @@ package abstraction;
  *  Abstract method can't be make static. Since a method which is static can be called just by class name without the object.
  */
 
-
- /*
-  * Interfaces
-  * Interfaces are abstract class with all abstract methods only.
-  * Interfaces methods are abstract as well as public by default.
-  * Child class object can be stored in an interface reference.
-  */
-
-  /*
-   * Abstract and Interfaces
-   * Abstracts provides inheritance as well as polymorphism, whereas interfaces provides only polymorphism.
-   * Abstracts classes are extended but interfaces are implemented.
-   * A class can extend only from one class, but a class can implements multiple interfaces.
-   * 
-   */
-
 abstract class Hospital {
     public Hospital(){
         System.out.println("Hospital Constructor");

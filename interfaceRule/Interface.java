@@ -1,5 +1,21 @@
 package interfaceRule;
 
+/*
+  * Interfaces
+  * Interfaces are abstract class with all abstract methods only.
+  * Interfaces methods are abstract as well as public by default.
+  * Child class object can be stored in an interface reference.
+  */
+
+  /*
+   * Abstract and Interfaces
+   * Abstracts provides inheritance as well as polymorphism, whereas interfaces provides only polymorphism.
+   * Abstracts classes are extended but interfaces are implemented.
+   * A class can extend only from one class, but a class can implements multiple interfaces.
+   * 
+   */
+
+
 class Phone {
     public void call(){ System.out.println("Phone making a call"); }
     public void sms(){ System.out.println("Phone sending a sms"); }
